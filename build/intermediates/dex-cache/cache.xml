@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ftt/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/pre-dexed/debug/gson-2.3.1-e023a83f7984123cb7f722cb4252dd018ff89c2b.jar" />
+    </item>
+    <item
+        jar="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/exploded-aar/com.github.mrengineer13/snackbar/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cc35903814b2bf137fa6f1df823ed51cdce74977">
+        <dex dex="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/pre-dexed/debug/classes-05a2645c72a07f9e301f11e9d821c1d5640c121e.jar" />
+    </item>
+    <item
+        jar="/home/ftt/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-7ddc38310fb5cb35bf7179e5f61774c8aa4f9f58.jar" />
+    </item>
+    <item
+        jar="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/pre-dexed/debug/classes-c078bb8bbd6ad5e943757f7938b4e1550c9fd80f.jar" />
+    </item>
+    <item
+        jar="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-dda6567847dec1822eb4af3fbed8f1310da35933.jar" />
+    </item>
+    <item
+        jar="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/ftt/opt/m/src/MobiAudio/app/build/intermediates/pre-dexed/debug/classes-9ece9900da01bc9489aa407adf3253df6bae46da.jar" />
+    </item>
+
+</items>

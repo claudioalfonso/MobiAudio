@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">MobiAudio</string>
+
+  <string name="textview.new_text">New Text</string>
+  <string name="textview.current_poi">Ponto de interesse atual:</string>
+
+  <string name="toggle.on">LIGADO</string>
+  <string name="toggle.off">DESLIGADO</string>
+
+  <string name="snackbar.error.audio_file_not_found">Arquivo de áudio não encontrado</string>
+  <string name="snackbar.error.could_not_start_location_manager">Não foi possível obter a localização</string>
+</resources>

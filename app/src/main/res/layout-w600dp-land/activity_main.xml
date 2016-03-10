@@ -1,0 +1,112 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="20dp"
+  android:orientation="horizontal"
+  tools:context=".MainActivity">
+
+  <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.5">
+    <ImageView
+      android:id="@+id/logo"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_centerHorizontal="true"
+      android:padding="20dp"
+      android:src="@drawable/logo_full"
+      android:scaleType="fitCenter"
+      android:contentDescription="@null" />
+
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.5">
+
+    <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="25dp"
+      android:text="@string/textview.current_poi"
+      android:textStyle="bold"
+      android:textSize="22sp" />
+
+    <TextView
+      android:id="@+id/textView_poi_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textView"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:text="@string/textview.new_text"
+      android:textStyle="bold"
+      android:textSize="22sp" />
+
+    <ToggleButton
+      android:id="@+id/toggleButton"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:textOn="@string/toggle.on"
+      android:textOff="@string/toggle.off"
+      android:onClick="toggleGPS" />
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/toggleButton"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@+id/textView_poi_name"
+      android:gravity="center">
+
+      <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/button_previous"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/previous"
+        android:scaleType="fitCenter"
+        android:onClick="previousTrack"
+        android:contentDescription="@null" />
+
+      <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/button_pause"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/pause"
+        android:scaleType="fitCenter"
+        android:onClick="pause"
+        android:contentDescription="@null" />
+
+      <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/button_play"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/play"
+        android:scaleType="fitCenter"
+        android:onClick="play"
+        android:contentDescription="@null" />
+
+      <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/button_next"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/next"
+        android:scaleType="fitCenter"
+        android:onClick="nextTrack"
+        android:contentDescription="@null" />
+    </LinearLayout>
+  </RelativeLayout>
+</LinearLayout>
